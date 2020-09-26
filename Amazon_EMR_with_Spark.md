@@ -1,0 +1,3 @@
+## Amazon EMR with Spark### Amazon EMR (Elastic Map Reduce)
+• Managed service for hosting massively parallel compute tasks.• Integrates with storage service S3.• Petabyte scale.• Uses ‘big data’ tools:	• Spark	• Hadoop	• HBase### Apache Spark
+• Fast analytics engine.• Massively parallel compute tasks.• Deployed over clusters of resources.• Variations of Spark run on:	• Amazon EMR	• Amazon SageMaker• And Spark ML runs on EMR too.
