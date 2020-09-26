@@ -49,4 +49,7 @@ Kinesis Data Analytics - Use Cases• Responsive real-time analyticsExample: 
 
 
 
+_Kinesis Data Streams and Kinesis Data Analytics cannot write data directly to S3. Kinesis Data Firehose is used as the main delivery mechanism for outputting data into S3. You can also use Lambda to write data into S3_
+
+
 
