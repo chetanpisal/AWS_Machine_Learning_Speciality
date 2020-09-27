@@ -39,3 +39,27 @@ If your library only consists of a single Python module in one .py file, you do 
 If you are using different library sets for different ETL scripts, you can either set up a separate development endpoint for each set, or you can overwrite the library .zip file(s) that your development endpoint loads every time you switch scripts.
 
 You can use the console to specify one or more library .zip files for a development endpoint when you create it. After assigning a name and an IAM role, choose Script Libraries and job parameters (optional) and enter the full Amazon S3 path to your library .zip file in the Python library path box.
+
+
+### Amazon GLUE Components
+
+**Amazon Glue ETL Operations**
+
+Using the metadata in the Data Catalog, AWS Glue can autogenerate Scala or PySpark (the Python API for Apache Spark) scripts with AWS Glue extensions that can be used and modified for ETL operations.
+
+
+**Amazon Glue Job System**
+
+The AWS Glue Jobs system provides managed infrastructure to orchestrate ETL workflows. Jobs can be created to automate ETL scripts and transfer data to different locations. Jobs can be scheduled and chained, or they can be triggered by events such as the arrival of new data.
+
+
+**Amazon Glue Crawlers**
+
+AWS Glue crawlers can scan data in supported repositories, classify it, extract schema information from it, and store the metadata in the AWS Glue Data Catalog
+
+
+**Amazon Glue Data Catalogue**
+
+The AWS Glue Data Catalog is a managed service used to store, annotate, and share metadata (in the same way as an Apache Hive metastore).
+
+

@@ -14,7 +14,7 @@ Data Consumers would be _EC2, Lambda, Kinesis Data Analytics, EMR Apache Spark_
 Storage and Analyzation - _S3, DynamoDB, RedShift, BI tools_
 
 
-When should you useKinesis Data Streams?
+When should you use Kinesis Data Streams?
 • Needs to be processed by consumers.• Real time analytics.• Feed into other services in real time.• Some action needs to occur on your data.• Storing data is optional.• Data retention is important.
 
 Kinesis Data Streams - Use Cases• Process and evaluate logs immediatelyExample: Analyze system and application logs continuously and process within seconds.• Real-time data analyticsExample: Run real-time analytics on click stream data and process it within seconds.
@@ -40,6 +40,10 @@ Kinesis Data Firehose - use cases
 ** Kinesis Video Streams
 
 When should you use Kinesis Video Streams?• Needs to process real-time streaming video data (audio, images, radar).• Batch-process and store streaming video.• Feed streaming data Kinesis into other AWS services
+
+
+_Amazon Kinesis Video Streams can be used to stream live video from devices to the AWS cloud or build applications for real-time video processing or batch-oriented video analytics. Kinesis Video Streams can also be used to watch your video streams in real time as they are received in the cloud. Amazon Kinesis Video Streams uses Amazon S3 as the underlying data store behind the scenes_
+
 
 ** Kinesis Data Analytics
 
