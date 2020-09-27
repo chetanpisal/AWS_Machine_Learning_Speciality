@@ -1,0 +1,7 @@
+## DeepARFORECASTING
+
+{SUPERVISED} Learning ModelForecasting algorithm for scalar times series using recurrentneural networks (RNN). DeepAR outperforms standard autoregressive integrated moving average (ARIMA) and exponential smoothing (ETS) by training a single model over multiple time series as opposed to each individual time series.Can predict both point-in-time values and estimated values over a timeframe by using multiple sets of historic data.Support for various time series Time series can be numbers, counts, orvalues in an interval (such as temperature readings between 0 and100.)More time series is betterRecommend training a model on as many time series as are available. DeepAR really shines with hundreds of related timeseries.Must supply at least 300 observationsDeepAR requires a minimum number of observations across all time series.You must supply some hyperparametersContext Length, Epochs, Prediction Length and Time Frequency are required hyperparameters.Automatic Evaluation of the ModelUses a backtest after training to evaluate the accuracy of the model automatically.
+
+
+Use Cases 
+• Forecasting New Product PerformanceExample: Incorporate historical data from other products to create a model that can predict performance of a newly released product.• Predict Labor Needs for Special EventsExample: Use labor utilization rates at other distribution centers to predict the requiredlevel of staffing for a brand new distribution center.
